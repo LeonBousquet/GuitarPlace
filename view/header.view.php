@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>GuitarPlace</title>
-  <link rel="stylesheet" type="text/css" href="../view/design/menu.css">
+  <link rel="stylesheet" type="text/css" href="../view/design/accueil.css">
   <style media="screen">
     </style>
   </head>

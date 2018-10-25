@@ -1,49 +1,57 @@
 body {
   margin: 0px;
+  font-family:Arial, sans-serif;
 }
 
-nav > ul{
+#header {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0px;
+}
+
+#navigation > ul{
   margin:0;
   padding:0;
-  position: fixed;
-  top:0px;
-  background: #FF3838;
+  background: #2e2e2e ;
   width: 100%;
 }
 
-nav > ul > li{
+#navigation > ul > li{
   float: left;
   position: relative;
 }
 
-nav > ul > li:hover{
-  background: Orange;
+#navigation > ul > li:hover{
+  background: #cb4335;
 }
 
-nav > ul > .boutondroite{
+#navigation > ul > .boutondroite{
   float:right;
 }
 
-nav > ul > li > a{
+#navigation > ul > li > a{
   padding:20px 30px;
-  color: #FFF;
+  color: white;
+}
+#navigation > ul > li:hover{
+  background: #cb4335;
 }
 
-nav li{
+#navigation li{
   list-style-type: none;
 }
 
-nav >ul::after{
+#navigation >ul::after{
   content: "";
   display : block;
   clear : both;
 }
 
-nav a{
+#navigation a{
   display: inline-block;
   text-decoration: none;
 }
-
 
 .submenu{
   display:none;
@@ -60,47 +68,46 @@ nav a{
   width: 100%;
 }
 
-nav > ul > li > ul >li:hover{
-  background: #FAFAD2;
+#navigation > ul > li > ul >li:hover{
+  background: #cb4335 ;
 }
 
-nav li:hover .submenu{
+#navigation li:hover .submenu{
   display: inline-block;
   position: absolute;
   top: 100%;
   left: 0px;
   padding: 0px;
   z-index: 100000;
-  background: #FF3838;
+  background:  #2e2e2e ;
   opacity: 1;
   transition: 50s;
 }
 
-nav li:hover .submenu2{
+#navigation li:hover .submenu2{
   display: inline-block;
   position: absolute;
   top: 100%;
   left: 0px;
   padding: 0px;
   z-index: 100000;
-  background: #FF3838;
+  background: #2e2e2e ;
   opacity: 1;
   transition: 50s;
 }
 
 
-nav li:hover .submenu4{
+#navigation li:hover .submenu4{
   display: inline-block;
   position: absolute;
   top: 100%;
   left: 0px;
   padding: 0px;
   z-index: 100000;
-  background: #FF3838;
+  background: #2e2e2e ;
   opacity: 1;
   transition: 50s;
 }
-
 
 .submenu li{
   border-bottom: 1px solid #CCC;
@@ -108,7 +115,7 @@ nav li:hover .submenu4{
 .submenu li a{
   padding: 15px 30px;
   font-size: 13px;
-  color:#222538;
+  color:white;
   width: 270px;
 }
 
@@ -118,7 +125,7 @@ nav li:hover .submenu4{
 .submenu2 li a{
   padding: 15px 30px;
   font-size: 13px;
-  color:#222538;
+  color:white;
   width: 270px;
 }
 
@@ -129,6 +136,6 @@ nav li:hover .submenu4{
 .submenu4 li a{
   padding: 15px 30px;
   font-size: 13px;
-  color:#222538;
+  color:white;
   width: 270px;
 }
