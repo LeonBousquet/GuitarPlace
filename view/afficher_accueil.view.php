@@ -82,25 +82,25 @@
       <li class="grid-column">
         <a title="Guitares électriques Stratocaster" href="../controler/afficher_stratocaster.ctrl.php">
         <img class="stratocaster" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/372488.jpg"><br/>
-        <span>Guitares éléctriques<br/>Stratocaster</span>
+        <span>Guitares électriques<br/>Stratocaster</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Guitares électriques Telecaster" href="../controler/afficher_telecaster.ctrl.php">
         <img class="telecaster" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/402463.jpg"><br/>
-        <span>Guitares éléctriques<br/>Telecaster</span>
+        <span>Guitares électriques<br/>Telecaster</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Guitares électriques Single Cut" href="../controler/afficher_singlecut.ctrl.php">
         <img class="singlecut" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/147148.jpg"><br/>
-        <span>Guitares éléctriques<br/>Single Cut</span>
+        <span>Guitares électriques<br/>Single Cut</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Guitares électriques Double Cut" href="../controler/afficher_doublecut.ctrl.php">
         <img class="doublecut" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/131673.jpg"><br/>
-        <span>Guitares éléctriques<br/>Double Cut</span>
+        <span>Guitares électriques<br/>Double Cut</span>
         </a>
       </li>
     </div>
