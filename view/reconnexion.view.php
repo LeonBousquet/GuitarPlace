@@ -8,7 +8,8 @@
   <body>
         <form  class="" action="../controler/connexion.ctrl.php" method="post">
           <header>
-            Se connecter
+            Se connecter <br><br>
+            <h3>Le mot de passe ou le pseudo est incorrect, veuillez réessayer...</h3>
           </header>
 
             <label>Pseudo</label>
@@ -16,6 +17,7 @@
             <label>Mot de passe</label>
             <input type="password" name="MDP" value="">
             <button>Connexion</button>
+
         </form>
 
   </body>
