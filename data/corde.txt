@@ -1,0 +1,10 @@
+1|Elixir Optiweb 19027 Custom Light|electrique|accessoire/corde/1.jpg|009 - 0046|14.30€
+2|Elixir Nanoweb Custom Light|electrique|accessoire/corde/2.jpg|009 - 0046|12.90€
+3|Ernie Ball 2222|electrique|accessoire/corde/3.jpg|009 - 0046|5.60€
+4|Elixir Polyweb Extra Light Acoustic|acoustique|accessoire/corde/4.jpg|010 - 047|14.90€
+5|Martin Guitars M170|acoustique|accessoire/corde/5.jpg|010 - 047|3.98€
+6|Ernie Ball 2722|electrique|accessoire/corde/6.jpg|009 - 046|12.90€
+7|Ernie Ball 2223|electrique|accessoire/corde/7.jpg|009 - 042|5.70€
+8|Savarez Argentine 1510|acoustique|accessoire/corde/8.jpg|010 - 045|9.40€
+9|Elixir Nanoweb Extra Light Acoustic|acoustique|accessoire/corde/9.jpg|010 - 047|16.90€
+10|Ernie Ball Paradigm 80/20 B. EXL 10-50|acoustique|accessoire/corde/10.jpg|010 - 050|16.60€

@@ -1,0 +1,10 @@
+1|Gibson J-45 Walnut Burst AG 2018|acoustique/1.jpg|oui|1590€
+2|Harley Benton CLJ-503CE WN|acoustique/2.jpg|oui|198€
+3|Framus Legacy Series FJ14 M Jumbo NTS|acoustique/3.jpg|non|329€
+4|Framus Legacy Jumbo NA|acoustique/4.jpg|non|398€
+5|Takamine EF250TK Toby Keith|acoustique/5.jpg|oui|2480€
+6|Takamine GJ72CE-2-NAT|acoustique/6.jpg|oui|499€
+7|Dean Guitars Exotica Quilt Ash A/E TBZ|acoustique/7.jpg|oui|299€
+8|Yamaha AC3R ARE BL LTD|acoustique/8.jpg|oui|999€
+9|Yamaha FS800 T|acoustique/9.jpg|non|269€
+10|Furch Blue plus GC-SW|acoustique/10.jpg|non|1258€

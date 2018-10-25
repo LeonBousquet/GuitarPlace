@@ -1,0 +1,10 @@
+1|Harley Benton CST-24T Emerald Flame|electrique/doublecut/1.jpg|Vert|222€
+2|Gibson SG ´61 Standard 2019 VC|electrique/doublecut/2.jpg|Rouge|1490€
+3|PRS SE Mark Holcomb WB LTD|electrique/doublecut/3.jpg|Bleu|990€
+4|Gibson SG Std Tribute 2019 NW|electrique/doublecut/4.jpg|Marron|990€
+5|PRS PRS SE 277 FR 2018|electrique/doublecut/5.jpg|Sunburst|888€
+6|Harley Benton XT-22 Paradise Flame|electrique/doublecut/6.jpg|Marron|222€
+7|Epiphone Tony Iommi Signature SG Custom|electrique/doublecut/7.jpg|Noir|733€
+8|PRS SE Custom 24 WB 2018|electrique/doublecut/8.jpg|Bleu|798€
+9|PRS CE 24 Black Out PB Satin|electrique/doublecut/9.jpg|Sunburst|1999€
+10|Danelectro DE 59M NOS+ BK|electrique/doublecut/10.jpg|Noir|444€

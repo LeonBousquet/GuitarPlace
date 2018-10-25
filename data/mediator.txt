@@ -1,0 +1,10 @@
+﻿1|Harley Benton Nylon Player Pick Set Mixed|accessoire/mediator/1.jpg|12|Variable|Nylon|1.99€
+2|Dava Control Grip Tip Delrin Picks|accessoire/mediator/2.jpg|6|Variable|Plastique|6.80€
+3|Dunlop Nylon Max Grip 0.73 Player Pk|accessoire/mediator/3.jpg|12|0.73mm|Nylon|5.90€
+4|Dunlop Ultex Jazz III John Petrucci|accessoire/mediator/4.jpg|6|1.40mm|Nylon|6.50€
+5|Dunlop Jim Root Custom Nylon Picks|accessoire/mediator/5.jpg|6|1.38mm|Nylon|5.90€
+6|Harley Benton Guitar Pick Medium 5 Pack|accessoire/mediator/6.jpg|5|0.8mm|Plastique|1.49€
+7|Dunlop Nylon Max Grip Jazz III Carbon|accessoire/mediator/7.jpg|6|1.38mm|Fibre de carbone|5.50€
+8|Dunlop Acoustic Pick Variety Pack|accessoire/mediator/8.jpg|12|0.60mm à 0.88mm|Variable|6.50€
+9|Dunlop Tortex Standard 0,60|accessoire/mediator/9.jpg|12|0.60mm|Plastique|5.90€
+10|John Pearse Buffalo Horn Plectrum|accessoire/mediator/10.jpg|1|Heavy|Corne|9.70€

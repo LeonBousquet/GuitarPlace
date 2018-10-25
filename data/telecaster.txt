@@ -1,0 +1,10 @@
+1|Cort MBC-1 Red Sparkle|electrique/telecaster/1.jpg|Rouge|498€
+2|Cort MBC-1 Red Sparkle|electrique/telecaster/2.jpg|Noir|577€
+3|Chapman Guitars ML3 Bea Rabea Massaad Smoke|electrique/telecaster/3.jpg|Noir|1399€
+4|Fender Squier Affinity Tele MN BB|electrique/telecaster/4.jpg|Blonde|185€
+5|Fender Deluxe Nashville Tele WB|electrique/telecaster/5.jpg|Blonde|749€
+6|Fender AM Elite Tele Thinline MN MIB|electrique/telecaster/6.jpg|Naturel|1666€
+7|Fender Player Series Tele HH PF 3TS|electrique/telecaster/7.jpg|Sunburst|629€
+8|FGN J-Standard Iliad HH RW BK|electrique/telecaster/8.jpg|Noir|799€
+9|Friedman Vintage T-APBWH|electrique/telecaster/9.jpg|Noir|2666€
+10|Harley Benton TE-80 NT Deluxe Series|electrique/telecaster/10.jpg|Naturel|177€

@@ -1,0 +1,10 @@
+1|Epiphone Les Paul Studio Deluxe AW|electrique/singlecut/1.jpg|Blanc|298€
+2|Gibson Les Paul Standard HP 2019 BBF|electrique/singlecut/2.jpg|Bleu|3190€
+3|Gibson LP Standard Lightly Figured AS|electrique/singlecut/3.jpg|Bleu|3790€
+4|ESP E-II Eclipse BB BLKS|electrique/singlecut/4.jpg|Noir|2378.81€
+5|Gibson Les Paul BFG P90 WE 2018|electrique/singlecut/5.jpg|Noir|885€
+6|Gibson Les Paul Standard HP 2018 HCF|electrique/singlecut/6.jpg|Sunburst|2666€
+7|Gibson SG Standard 2019 EB|electrique/singlecut/7.jpg|Noir|1390€
+8|Gibson Les Paul Classic 2019 GT|electrique/singlecut/8.jpg|Or|2145€
+9|ESP LTD EC-1000 See Thru Green|electrique/singlecut/9.jpg|Vert|849€
+10|Epiphone Les Paul Studio Deluxe WR|electrique/singlecut/10.jpg|Rouge|298€

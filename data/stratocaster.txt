@@ -1,0 +1,10 @@
+1|PRS SE Custom 24 LTD Maple Ed. GB|electrique/stratocaster/1.jpg|Gris|999€
+2|Chapman Guitars ML1 Pro Modern Lunar|electrique/stratocaster/2.jpg|Noir|1119€
+3|Fender AM Original 60 Strat RW 3CSB|electrique/stratocaster/3.jpg|Sunburst|1699€
+4|Ibanez AZ224F-BIG|electrique/stratocaster/4.jpg|Bleu|1078€
+5|Music Man Petrucci Monarchy Majesty 7 MP|electrique/stratocaster/5.jpg|Lilas|4090€
+6|Harley Benton ST-20HSS SB Standard Series|electrique/stratocaster/6.jpg|Sunburst|79€
+7|Fender AM Pro Strat RW ATO|electrique/stratocaster/7.jpg|Vert|1444€
+8|Fender American Special Strat RW 2CSB|electrique/stratocaster/8.jpg|Sunburst|966€
+9|Jackson Adrian Smith SDXQ Trans Green|electrique/stratocaster/9.jpg|Vert|469€
+10|PRS John Mayer Silver Sky Tungsten|electrique/stratocaster/10.jpg|Argent|2949€

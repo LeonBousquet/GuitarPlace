@@ -1,0 +1,18 @@
+sqlite3 donnees.db
+.read create.sql
+.separator |
+.import BD/accessoire/cable/cable.txt cables
+.separator |
+.import BD/accessoire/corde/corde.txt cordes
+.separator |
+.import BD/accessoire/mediator/mediator.txt mediators
+.separator |
+.import BD/acoustique/acoustique.txt acoustique
+.separator |
+.import BD/electrique/doublecut/doublecut.txt doublecut
+.separator |
+.import BD/electrique/singlecut/singlecut.txt singlecut
+.separator |
+.import BD/electrique/stratocaster/stratocaster.txt stratocaster
+.separator |
+.import BD/electrique/telecaster/telecaster.txt telecaster
