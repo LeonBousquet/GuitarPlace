@@ -5,6 +5,12 @@ html, body {
   height: 100%;
 }
 
+h3{
+    color : red;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
   background: #b2b4b7;
   display: flex;
@@ -23,7 +29,7 @@ form {
   border-radius: 10px;
 }
 form header {
-  background: #FF3838;
+  background: green;
   padding: 30px 20px;
   color: white;
   font-size: 1.2em;
@@ -67,7 +73,7 @@ form button {
   transform: translate(-50%, 0);
   font-family: inherit;
   color: white;
-  background: #FF3838;
+  background: green;
   outline: none;
   border: none;
   padding: 5px 15px;
@@ -79,5 +85,5 @@ form button {
   transition: all 0.15s ease-in-out;
 }
 form button:hover {
-  background: #ff5252;
+  background: tomato;
 }

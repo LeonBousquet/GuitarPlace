@@ -10,20 +10,19 @@ $query->execute();
 $num_row = $query->fetchColumn();
 // Si pas d'utilisateur on retourne au menu.
 if ($num_row == 0){
-    header("Location: ../controler/afficher_accueil.ctrl.php");
+    header("Location: ../view/connexion.view.php");
 } else {
   $requete = "SELECT mp FROM utilisateur WHERE login='$pseudo'";
   $q = $dao->db()->query($requete);
   $mp = $q->fetch();
 
-  if($MDP==$mp[0]){
+  if($MDP==$mp[0] && !empty($_POST["Pseudo"])){
     session_start();
     $_SESSION['pseudo'] = $pseudo;
-    echo 'Vous êtes connecté !';
     header("Location: ../controler/afficher_accueil.ctrl.php");
 
   }else {
-    echo "PROBLEME DE CONNEXION";
+      header("Location: ../view/reconnexion.view.php");
   }
 
 }

@@ -8,7 +8,7 @@
   <body>
     <?php
 
-    print "<h2> Cables </h2>";
+    print "<h2> Câbles </h2>";
 
     print "<div class = 'contenair'>";
 
