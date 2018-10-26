@@ -8,7 +8,7 @@
   <body>
     <?php
 
-    print "<h2> Modèles Acoustiques </h2>";
+    print "<h2> Guitares acoustiques </h2>";
 
     print "<div class = 'contenair'>";
 

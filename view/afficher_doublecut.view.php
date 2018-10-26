@@ -8,7 +8,7 @@
   <body>
     <?php
 
-    print "<h2> Modèles Double Cut </h2>";
+    print "<h2> Guitares électriques - Modèles Double Cut </h2>";
 
     print "<div class = 'contenair'>";
 
