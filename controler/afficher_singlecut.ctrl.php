@@ -12,5 +12,6 @@ include('../view/header.view.php');
 $singlecut = $dao->getObjet('singlecut');
 
 include("../view/afficher_singlecut.view.php");
+include('../view/footer.view.php');
 
 ?>

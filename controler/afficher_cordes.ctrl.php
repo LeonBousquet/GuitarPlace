@@ -12,5 +12,6 @@ include('../view/header.view.php');
 $cordes = $dao->getObjet('cordes');
 
 include("../view/afficher_cordes.view.php");
+include('../view/footer.view.php');
 
 ?>

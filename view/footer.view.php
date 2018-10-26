@@ -6,9 +6,26 @@
     <link rel="stylesheet" href="../view/design/footer.css">
   </head>
   <body>
-    <footer>
- 
-</footer>
+    <footer class="footer">
 
+
+      <div class="container">
+
+        <ul class="ul">
+          <li class="list-inline-item">
+            <h5 class="mb-1">Register for free </h5>
+          </li>
+          <li class="list-inline-item">
+            <a href="inscription.ctrl.php" class="">Sign up!</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="copyright">© 2018 Copyright</div>
+
+
+    </footer>
+    <!-- Footer -->
   </body>
 </html>

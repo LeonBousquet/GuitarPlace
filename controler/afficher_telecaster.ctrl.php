@@ -14,5 +14,6 @@ $telecaster = $dao->getObjet('telecaster');
 
 
 include("../view/afficher_telecaster.view.php");
+include('../view/footer.view.php');
 
 ?>

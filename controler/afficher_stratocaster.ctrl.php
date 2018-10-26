@@ -12,5 +12,6 @@ include('../view/header.view.php');
 $stratocaster = $dao->getObjet('stratocaster');
 
 include("../view/afficher_stratocaster.view.php");
+include('../view/footer.view.php');
 
 ?>

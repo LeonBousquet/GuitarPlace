@@ -12,5 +12,6 @@ include('../view/header.view.php');
 $mediators = $dao->getObjet('mediators');
 
 include("../view/afficher_mediators.view.php");
+include('../view/footer.view.php');
 
 ?>

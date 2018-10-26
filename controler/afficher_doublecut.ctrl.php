@@ -14,5 +14,6 @@ $doublecut = $dao->getObjet('doublecut');
 
 
 include("../view/afficher_doublecut.view.php");
+include('../view/footer.view.php');
 
 ?>

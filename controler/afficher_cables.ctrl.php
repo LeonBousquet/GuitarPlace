@@ -12,5 +12,6 @@ include('../view/header.view.php');
 $cables = $dao->getObjet('cables');
 
 include("../view/afficher_cables.view.php");
+include('../view/footer.view.php');
 
 ?>
