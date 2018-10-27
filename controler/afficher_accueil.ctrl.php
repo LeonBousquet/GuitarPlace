@@ -7,6 +7,7 @@ $login = $_SESSION['pseudo'];
 
 }
 
+
 include('../view/afficher_accueil.view.php');
 include('../view/footer.view.php');
 
