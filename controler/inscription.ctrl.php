@@ -15,6 +15,8 @@ else {
   header("Location: ../view/inscription.view.php");
 }
 
+include('../view/header.view.php');
+
 
 
  ?>

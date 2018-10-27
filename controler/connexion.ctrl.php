@@ -3,12 +3,13 @@ require_once('../model/DAO.class.php');
 $pseudo = $_POST["Pseudo"];
 $MDP = $_POST["MDP"];
 $dao = new DAO();
+include('../view/header.view.php');
 // On regarde s'il y a un utilisateur correspondant a notre pseudo.
 $query = $dao->db()->prepare("SELECT COUNT(login) FROM utilisateur WHERE login = :login");
 $query->bindValue('login', $pseudo, PDO::PARAM_STR);
 $query->execute();
 $num_row = $query->fetchColumn();
-// Si pas d'utilisateur on retourne au menu.
+// Si pas d'utilisateur on redemande une connexion.
 if ($num_row == 0){
     header("Location: ../view/connexion.view.php");
 } else {

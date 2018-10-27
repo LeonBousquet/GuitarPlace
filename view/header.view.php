@@ -29,7 +29,7 @@
               <li class="bouton"><a href="../controler/afficher_mediators.ctrl.php"><b>Médiators</b></a></li>
             </ul>
           </li>
-          <li class="bouton"><a href="#"><b>Mes produits</b></a></li>
+          <li class="bouton"><a href="../controler/afficher_mesproduits.ctrl.php"><b>Mes produits</b></a></li>
           <li class="boutondroite"><a href="../controler/deconnexion.ctrl.php"><b>Se déconnecter (<?php echo $_SESSION['pseudo'];?>)</b></a></li>
         <?php } else { ?>
           <li class="bouton"><a href="#"><b>Guitares Electriques</b></a>

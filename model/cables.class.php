@@ -8,7 +8,7 @@ class cables {
   public $img;   // chemin vers l'image
   public $longueur;  // longueur du cable en m
   public $couleur; // couleur du cable
-  public $prix; // prix du cableProjet
+  public $prix; // prix du cable
 
 }
 

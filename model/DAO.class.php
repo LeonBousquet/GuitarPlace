@@ -25,6 +25,7 @@ $dao = new DAO();
           $database = 'sqlite:../data/donnees.db';
           try {
             $this->db = new PDO($database);
+            $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
           }
           catch (\Exception $e) {
             die("erreur de connexion : ".$e->getMessage());
@@ -42,8 +43,8 @@ $dao = new DAO();
           return $result;
         }
 
-        function getMesProduits($base) : array {
-          $req = "SELECT * FROM $base WHERE id IN (SELECT id FROM mesproduits WHERE categorie= $base AND utilisateur_login = $login)";
+        function getMesProduits($base,$login) : array {
+          $req = "SELECT * FROM $base WHERE id in (SELECT id FROM mesproduits WHERE categorie= '$base' AND utilisateur_login='$login')";
           $sth = ($this->db)->query($req);
           $result=$sth->fetchAll(PDO::FETCH_CLASS, $base);
           return $result;
@@ -57,7 +58,15 @@ $dao = new DAO();
           return $result;
         }
 
+        function ajoutProduit($categorie,$id,$login){
+            $req = "INSERT INTO mesproduits (categorie,id,utilisateur_login) VALUES ('$categorie','$id','$login')";
+            $sth = ($this->db)->query($req);
+        }
 
+        function suppProduit($categorie,$id,$login){
+            $req = "DELETE FROM mesproduits WHERE categorie= '$categorie' AND id= '$id' AND utilisateur_login='$login'";
+            $sth = ($this->db)->query($req);
+        }
 
 
         /*
@@ -69,7 +78,6 @@ $dao = new DAO();
           var_dump($result[0]);
         }
         */
-
 
 
 }

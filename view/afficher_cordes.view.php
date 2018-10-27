@@ -10,11 +10,20 @@
 
     print "<h2> Cordes </h2>";
 
+    if (isset($_SESSION['pseudo'])){
+    print "Cliquez sur une photo pour ajouter le produit dans Mes Produits";
+    }
+
     print "<div class = 'contenair'>";
 
     foreach ($cordes as $key => $value) {
       print '<article>';
-        print "<div class = 'img'><img src = '../data/BD/$value->img'></div>";
+      if (isset($_SESSION['pseudo'])){
+          print "<div class = 'img'><a href=\"../controler/ajoutProduit.ctrl.php?categorie=cordes&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
+      }
+      else{
+          print "<div class = 'img'><img src = \"../data/BD/$value->img\"/></div>";
+      }
         print "<div class = 'text'><h3> $value->nom </h3>";
         print "<p> • Type : $value->type <p>";
         print "<p> • Tirant : $value->tirant <p>";
