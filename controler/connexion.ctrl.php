@@ -11,7 +11,7 @@ $query->execute();
 $num_row = $query->fetchColumn();
 // Si pas d'utilisateur on redemande une connexion.
 if ($num_row == 0){
-    header("Location: ../view/connexion.view.php");
+    header("Location: ../view/reconnexion.view.php");
 } else {
   $requete = "SELECT mp FROM utilisateur WHERE login='$pseudo'";
   $q = $dao->db()->query($requete);
