@@ -1,6 +1,7 @@
 body {
-  background: #EDEDED;
+  background: #E6E6E6;
   margin: 0;
+  font-family: sans-serif;
 }
 
 
@@ -12,14 +13,15 @@ h2 {
 }
 
 article {
-  width: 48%;
-  height: 250px;
+  width: 550px;
+  height: 230px;
   display: inline-block;
   border: 1px solid #CCC;
-  background: #FFF8DC;
+  background: white;
   font-size:1.1em;
-  font-family: 'Open Sans',Verdana,Tahoma,Arial,Helvetica,sans-serif;
-  margin: 7px;
+  margin: 20px;
+  border: double;
+
 }
 
 article div{
@@ -34,17 +36,19 @@ article div{
 }
 
 .text h3 {
-  margin-top: 15px;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .text p {
-  margin: 10px;
-  padding: 0;
+  margin : 10px;
+  text-align: left;
 }
 
 .text {
   width: 70%;
-  margin-left: 20px;
+  margin-left: 50px;
   vertical-align: top;
 }
 
@@ -52,11 +56,18 @@ article div{
   width: 17%;
 }
 
-
-article div img {
-  border: 1px solid #CCC;
-	width: 100%;
+#guitares div img {
+	width: 80px;
   height: 210px;
   margin: 5px;
+  margin-left: 30px;
+}
+
+#accessoires div img {
+	width: 140px;
+  height: 120px;
+  padding-left: 0px;
+  margin-left:0px;
+  margin-top: 50px;
 
 }

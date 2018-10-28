@@ -8,16 +8,15 @@
   <body>
     <?php
 
-    print "<h2> Mes Produits </h2>";
+    print "<h2> Mes Produits </h2><br>";
 
-    print "Cliquez sur l'image du produit pour le supprimer";
-
-    print "<div class = 'contenair'>";
+    print "<dd> Cliquez sur l'image du produit pour le retirer de votre liste.";
 
     if($mesproduitsAcoustiques!=NULL){
 
       foreach ($mesproduitsAcoustiques as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="guitares">';
         print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=acoustique&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           if($value->electroacoustique =='oui'){
@@ -25,87 +24,101 @@
           }
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
     if($mesproduitsStratocaster!=NULL){
 
       foreach ($mesproduitsStratocaster as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="guitares">';
       print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=stratocaster&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           print "<p> • Couleur : $value->couleur <p>";
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
     if($mesproduitsTelecaster!=NULL){
 
       foreach ($mesproduitsTelecaster as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="guitares">';
       print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=telecaster&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           print "<p> • Couleur : $value->couleur <p>";
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
     if($mesproduitsSingleCut!=NULL){
 
       foreach ($mesproduitsSingleCut as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="guitares">';
       print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=singlecut&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           print "<p> • Couleur : $value->couleur <p>";
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
     if($mesproduitsDoubleCut!=NULL){
 
       foreach ($mesproduitsDoubleCut as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="guitares">';
       print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=doublecut&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           print "<p> • Couleur : $value->couleur <p>";
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
     if($mesproduitscables!=NULL){
 
       foreach ($mesproduitscables as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="accessoires">';
       print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=cables&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           print "<p> • Longueur : $value->longueur <p>";
           print "<p> • Couleur : $value->couleur <p>";
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
     if($mesproduitscordes!=NULL){
 
       foreach ($mesproduitscordes as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="accessoires">';
       print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=cordes&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           print "<p> • Type : $value->type <p>";
           print "<p> • Tirant : $value->tirant <p>";
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
     if($mesproduitsmediator!=NULL){
 
       foreach ($mesproduitsmediator as $key => $value) {
-        print '<article>';
+        print "<div class = 'contenair'>";
+        print '<article id="accessoires">';
       print "<div class = 'img'><a href=\"../controler/SuppProduit.ctrl.php?categorie=mediators&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
           print "<div class = 'text'><h3> $value->nom </h3>";
           print "<p> • Quantite : $value->quantite <p>";
@@ -113,11 +126,10 @@
           print "<p> • Matière : $value->matiere <p>";
           print "<p> • Prix : $value->prix  </p></div>";
         print '</article>';
+        print "</div>";
       }
     }
 
-
-    print "</div>";
 
   ?>
   </body>
