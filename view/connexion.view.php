@@ -5,6 +5,7 @@
     <title>Connexion</title>
     <link rel="stylesheet" href="../view/design/login.css">
   </head>
+
   <body>
         <form  class="" action="../controler/connexion.ctrl.php" method="post">
           <header>
@@ -14,11 +15,12 @@
             <label>Pseudo</label>
             <input type="text" name="Pseudo" value="">
             <label>Mot de passe</label>
-            <input type="password" name="MDP" value="">
+            <input type="password" name="MDP" value=""/>
             <button>Connexion</button>
         </form>
 
-  </body>
 
+
+  </body>
 
 </html>
