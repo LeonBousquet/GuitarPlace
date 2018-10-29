@@ -50,17 +50,14 @@ $dao = new DAO();
           return $result;
         }
 
-
-        function getAccessoire($base) : array {
-          $req = "SELECT * FROM $base ";
-          $sth = ($this->db)->query($req);
-          $result=$sth->fetchAll(PDO::FETCH_CLASS, $base);
-          return $result;
-        }
-
         function ajoutProduit($categorie,$id,$login){
-            $req = "INSERT INTO mesproduits (categorie,id,utilisateur_login) VALUES ('$categorie','$id','$login')";
-            $sth = ($this->db)->query($req);
+            $test = "SELECT * FROM mesproduits WHERE categorie = '$categorie' and id = '$id' and utilisateur_login = '$login'";
+            $sth = ($this->db)->query($test);
+            $result=$sth->fetchAll(PDO::FETCH_CLASS, 'mesproduits');
+            if (count($result) == 0) {
+              $req = "INSERT INTO mesproduits (categorie,id,utilisateur_login) VALUES ('$categorie','$id','$login')";
+              $sth = ($this->db)->query($req);
+            }
         }
 
         function suppProduit($categorie,$id,$login){
@@ -68,18 +65,8 @@ $dao = new DAO();
             $sth = ($this->db)->query($req);
         }
 
-
-        /*
-        function getNbDoubleCut() {
-          $req = "SELECT COUNT (*) FROM doublecut";
-          $sth = ($this->db)->query($req);
-          $result=$sth->fetchAll(PDO::FETCH_CLASS,'doublecut');
-          return $result[0];
-          var_dump($result[0]);
-        }
-        */
-
-
 }
+
 $dao = new DAO();
+
 ?>

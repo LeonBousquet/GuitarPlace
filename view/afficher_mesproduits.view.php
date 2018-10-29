@@ -10,7 +10,12 @@
 
     print "<h2> Mes Produits </h2>";
 
-    print "Cliquez sur l'image du produit pour le supprimer";
+    if($mesproduitsAcoustiques==NULL && $mesproduitsStratocaster==NULL && $mesproduitsTelecaster==NULL && $mesproduitsSingleCut==NULL && $mesproduitscables==NULL && $mesproduitsDoubleCut==NULL && $mesproduitscordes==NULL && $mesproduitsmediator==NULL) {
+      print "Aucun produit pour le moment !";
+    }
+    else {
+      print "Cliquez sur l'image du produit pour le supprimer";
+    }
 
     print "<div class = 'contenair'>";
 
