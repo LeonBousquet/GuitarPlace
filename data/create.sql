@@ -13,7 +13,7 @@ DROP TABLE  acoustique;
 CREATE TABLE utilisateur (
   login STRING,
   mp STRING,
-  PRIMARY KEY(login,mp)
+  PRIMARY KEY(login)
 );
 
 CREATE TABLE stratocaster (

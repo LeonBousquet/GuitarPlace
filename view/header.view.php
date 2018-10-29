@@ -11,7 +11,7 @@
     <nav id="navigation">
       <ul>
         <li class="navigation"><a href="../controler/afficher_accueil.ctrl.php"><b>Accueil</b></a></li>
-        <!-- Si l'utilisateur est connecté on affiche les la barre de menu avec ce qu'il peut faire -->
+        <!-- Si l'utilisateur est connecté on affiche la barre de menu avec ce qu'il peut faire -->
         <?php if (isset($_SESSION['pseudo'])) { ?>
           <li class="bouton"><a href="#"><b>Guitares Electriques</b></a>
             <ul class="submenu2">

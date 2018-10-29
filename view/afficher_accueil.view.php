@@ -81,25 +81,25 @@
     <div class="grid-row" id="first-line">
       <li class="grid-column">
         <a title="Guitares électriques Stratocaster" href="../controler/afficher_stratocaster.ctrl.php">
-        <img class="stratocaster" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/372488.jpg"><br/>
+        <img class="stratocaster" src="../data/stratocaster.jpg"><br/>
         <span>Guitares électriques<br/>Stratocaster</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Guitares électriques Telecaster" href="../controler/afficher_telecaster.ctrl.php">
-        <img class="telecaster" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/402463.jpg"><br/>
+        <img class="telecaster" src="../data/telecaster.jpg"><br/>
         <span>Guitares électriques<br/>Telecaster</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Guitares électriques Single Cut" href="../controler/afficher_singlecut.ctrl.php">
-        <img class="singlecut" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/147148.jpg"><br/>
+        <img class="singlecut" src="../data/singlecut.jpg"><br/>
         <span>Guitares électriques<br/>Single Cut</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Guitares électriques Double Cut" href="../controler/afficher_doublecut.ctrl.php">
-        <img class="doublecut" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/131673.jpg"><br/>
+        <img class="doublecut" src="../data/doublecut.jpg"><br/>
         <span>Guitares électriques<br/>Double Cut</span>
         </a>
       </li>
@@ -109,25 +109,25 @@
     <div class="grid-row" id="sec-line">
       <li class="grid-column">
         <a title="Guitares Acoustiques" href="../controler/afficher_acoustique.ctrl.php">
-        <img class="acoustique" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/397088.jpg"><br/>
+        <img class="acoustique" src="../data/acoustique.jpg"><br/>
         <span>Guitares acoustiques</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Cordes" href="../controler/afficher_cordes.ctrl.php">
-        <img class="cordes" src="https://thumbs.static-thomann.de/thumb//thumb180x200/pics/prod/104554.jpg"><br/>
+        <img class="cordes" src="../data/cordes.jpg"><br/>
         <span>Cordes</span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Câbles" href="../controler/afficher_cables.ctrl.php">
-        <img class="cables" src="https://images.static-thomann.de/pics//images/category/icons/main/ka.jpg"><br/>
+        <img class="cables" src="../data/cables.jpg"><br/>
         <span>Câbles<br/></span>
         </a>
       </li>
       <li class="grid-column">
         <a title="Médiators" href="../controler/afficher_mediators.ctrl.php">
-        <img class="mediators" src="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/223625.jpg"><br/>
+        <img class="mediators" src="../data/mediators.jpg"><br/>
         <span>Médiators<br/></span>
         </a>
       </li>

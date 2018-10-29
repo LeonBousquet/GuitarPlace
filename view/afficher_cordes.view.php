@@ -11,13 +11,13 @@
     print "<h2> Cordes </h2>";
 
     if (isset($_SESSION['pseudo'])){
-    print "Cliquez sur une photo pour ajouter le produit dans Mes Produits";
+    print "<dd>Cliquez sur une photo pour ajouter le produit dans \"Mes Produits\"";
     }
 
     print "<div class = 'contenair'>";
 
     foreach ($cordes as $key => $value) {
-      print '<article>';
+      print '<article id="accessoires">';
       if (isset($_SESSION['pseudo'])){
           print "<div class = 'img'><a href=\"../controler/ajoutProduit.ctrl.php?categorie=cordes&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
       }
