@@ -28,6 +28,11 @@ article div{
   display: inline-block;
 }
 
+div .choixPage {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .contenair {
   display: block;
   margin-left: auto;

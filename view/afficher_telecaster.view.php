@@ -14,6 +14,20 @@
     print "<dd>Cliquez sur une photo pour ajouter le produit dans \"Mes Produits\"";
     }
 
+    print "<div class = 'choixPage'>";
+
+      if ($_GET['id'] > 1) {
+        print "<a href='?id=$prec&page=$precPage'><img src = \"../view/flecheG.png\"/></a>";
+      }
+
+      print " page $page ";
+
+      if ($_GET['id'] != $next) {
+        print "<a href='?id=$next&page=$nextPage'><img src = \"../view/flecheD.png\"/></a>";
+      }
+
+    print "</div>";
+
     print "<div class = 'contenair'>";
 
     foreach ($telecaster as $key => $value) {

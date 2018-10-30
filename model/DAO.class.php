@@ -65,6 +65,15 @@ $dao = new DAO();
             $sth = ($this->db)->query($req);
         }
 
+        // Acces au n objets à partir de l'id $id
+        // Cette méthode retourne un tableau contenant n objets de la classe $base.
+        function getNObjet($base, $id, $n) {
+          $requete = "SELECT * FROM $base where id>=$id order by id limit $n";
+          $query=($this->db)->query($requete);
+          $result =$query->fetchAll(PDO::FETCH_CLASS,"$base");
+          return $result;
+        }
+
 }
 
 $dao = new DAO();
