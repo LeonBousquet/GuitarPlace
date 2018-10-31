@@ -8,10 +8,12 @@
     </style>
   </head>
   <body>
+    <!-- barre de navigation du site -->
     <nav id="navigation">
       <ul>
         <li class="navigation"><a href="../controler/afficher_accueil.ctrl.php"><b>Accueil</b></a></li>
-        <!-- Si l'utilisateur est connecté on affiche la barre de menu avec ce qu'il peut faire -->
+        <!-- Si l'utilisateur est connecté on affiche la barre de navigation avec la section "Mes produits"
+      et "Se déconnecter (username)" sinon pas de "Mes produits" et section "Connexion" -->
         <?php if (isset($_SESSION['pseudo'])) { ?>
           <li class="bouton"><a href="#"><b>Guitares Electriques</b></a>
             <ul class="submenu2">
@@ -50,8 +52,8 @@
           </li>
           <li class="boutondroite"><a href="#"><b>Connexion</b></a>
             <ul class="submenu">
-              <li class="bouton"><a href="../view/connexion.view.php"><b>Se connecter</b></a></li>
-              <li class="bouton"><a href="../view/inscription.view.php"><b>S'inscrire</b></a></li>
+              <li class="bouton"><a href="../view/connexion.view.php?pb=0"><b>Se connecter</b></a></li>
+              <li class="bouton"><a href="../view/inscription.view.php?pb=0"><b>S'inscrire</b></a></li>
             <?php } ?>
           </ul>
         </li>

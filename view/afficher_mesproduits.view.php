@@ -10,17 +10,18 @@
 
     print "<h2> Mes Produits </h2><br>";
 
-
+    //le message affiché est différent selon  que la liste des favoris est vide ou pas
     if($mesproduitsAcoustiques==NULL && $mesproduitsStratocaster==NULL && $mesproduitsTelecaster==NULL && $mesproduitsSingleCut==NULL && $mesproduitscables==NULL && $mesproduitsDoubleCut==NULL && $mesproduitscordes==NULL && $mesproduitsmediator==NULL) {
       print "Aucun produit pour le moment !";
     }
     else {
       print "Cliquez sur l'image du produit pour le supprimer";
+
     }
 
     print "<div class = 'contenair'>";
 
-
+    //si l'utilisateur a sélectionné des produits dans cette catégorie, ils sont affichés avec leurs caractéristiques
     if($mesproduitsAcoustiques!=NULL){
 
       foreach ($mesproduitsAcoustiques as $key => $value) {

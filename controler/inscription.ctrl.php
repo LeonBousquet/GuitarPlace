@@ -20,24 +20,19 @@ if ($MDP == $MDPverif && !empty($pseudo) && $count==0){
 
     $q = ($dao->db())->exec($requete);
 
-    header("Location: ../view/connexion.view.php");
+    header("Location: ../view/connexion.view.php?pb=0");
 }
 
 else if($MDP != $MDPverif) {
-  header("Location: ../view/reinscription.view.php?pb=1");
+  header("Location: ../view/inscription.view.php?pb=1");
 }
 
 else if(empty($pseudo)){
-  header("Location: ../view/reinscription.view.php?pb=2");
+  header("Location: ../view/inscription.view.php?pb=2");
 }
 
 else{
-  header("Location: ../view/reinscription.view.php?pb=3");
+  header("Location: ../view/inscription.view.php?pb=3");
 }
-
-
-include('../view/header.view.php');
-
-
 
  ?>

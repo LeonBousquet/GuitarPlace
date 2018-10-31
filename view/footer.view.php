@@ -8,7 +8,7 @@
   <body>
     <footer class="footer">
 
-
+      <!-- footer qui permet de revenir en haut de la page -->
       <div class="container">
 
         <ul class="ul">

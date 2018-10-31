@@ -10,14 +10,34 @@
 
     print "<h2> Guitares acoustiques </h2>";
 
+    //test si un utilisateur est connecté pour lui afficher le message
+
     if (isset($_SESSION['pseudo'])){
-    print "<dd>Cliquez sur une photo pour ajouter le produit dans \"Mes Produits\"";
+      print "<dd>Cliquez sur une photo pour ajouter le produit dans \"Mes Produits\"";
     }
+
+    print "<div class = 'choixPage'>";
+
+    //affichage des flèches de navigation
+      if ($_GET['id'] > 1) {
+        print "<a href='?id=$prec&page=$precPage'><img src = \"../view/flecheG.png\"/></a>";
+      }
+
+      print " page $page ";
+
+      if ($_GET['id'] != $next) {
+        print "<a href='?id=$next&page=$nextPage'><img src = \"../view/flecheD.png\"/></a>";
+      }
+
+    print "</div>";
+
+    print '</br>';
 
     print "<div class = 'contenair'>";
 
     foreach ($acoustique as $key => $value) {
       print '<article id="guitares">';
+      // si l'utilisateur est connecté alors il a la possibilité d'ajouter des produits à ses favoris en cliquant sur l'image
       if (isset($_SESSION['pseudo'])){
           print "<div class = 'img'><a href=\"../controler/ajoutProduit.ctrl.php?categorie=acoustique&id=$value->id\"><img src = \"../data/BD/$value->img\"/></a></div>";
       }

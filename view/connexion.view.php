@@ -7,9 +7,19 @@
   </head>
 
   <body>
+
+    <!--formulaire de connexion-->
         <form  class="" action="../controler/connexion.ctrl.php" method="post">
           <header>
-            Se connecter
+            Se connecter <br><br>
+            <?php
+            $pb=$_GET['pb'];
+            
+            if($pb==1){
+              print "<h3>Le mot de passe ou le pseudo est incorrect, veuillez réessayer...</h3>";
+            }
+             ?>
+
           </header>
 
             <label>Pseudo</label>

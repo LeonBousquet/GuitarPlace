@@ -10,7 +10,7 @@ $query->execute();
 $num_row = $query->fetchColumn();
 // Si pas d'utilisateur on redemande une connexion.
 if ($num_row == 0){
-    header("Location: ../view/reconnexion.view.php");
+    header("Location: ../view/connexion.view.php?pb=1");
 } else {
   $requete = "SELECT mp FROM utilisateur WHERE login='$pseudo'";
   $q = $dao->db()->query($requete);
@@ -23,7 +23,7 @@ if ($num_row == 0){
       header("Location: ../controler/afficher_accueil.ctrl.php");
 
     }else {
-        header("Location: ../view/reconnexion.view.php?$MDP");
+        header("Location: ../view/connexion.view.php?pb=1");
     }
 
 }

@@ -6,9 +6,25 @@
     <link rel="stylesheet" href="../view/design/login.css">
   </head>
   <body>
-
+            <!-- formulaire d'inscription -->
             <form  class="" action="../controler/inscription.ctrl.php" method="post">
               <header>
+                <?php $pb=$_GET['pb'];
+                if($pb==1){
+                    print "<h3>La confirmation du mot de passe est incorrecte, veuillez corriger...</h3>";
+                }
+                else if($pb==2){
+                    print "<h3>Il faut choisir un pseudo pour s'incrire, renseignez le...</h3>";
+                }
+
+                else if($pb==3){
+                    print "<h3>Ce pseudo existe déjà, en choisir un autre...</h3>";
+                }
+                else{
+                  print "";
+                }
+              ?>
+
                 Renseignez les informations ci-dessous :
               </header>
                 <label>Pseudo</label>

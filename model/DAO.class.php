@@ -36,13 +36,6 @@ $dao = new DAO();
           return $this->db;
         }
 
-        function getObjet($base) : array {
-          $req = "SELECT * FROM $base ";
-          $sth = ($this->db)->query($req);
-          $result=$sth->fetchAll(PDO::FETCH_CLASS, $base);
-          return $result;
-        }
-
         function getMesProduits($base,$login) : array {
           $req = "SELECT * FROM $base WHERE id in (SELECT id FROM mesproduits WHERE categorie= '$base' AND utilisateur_login='$login')";
           $sth = ($this->db)->query($req);
@@ -63,6 +56,15 @@ $dao = new DAO();
         function suppProduit($categorie,$id,$login){
             $req = "DELETE FROM mesproduits WHERE categorie= '$categorie' AND id= '$id' AND utilisateur_login='$login'";
             $sth = ($this->db)->query($req);
+        }
+
+        // Acces au n objets à partir de l'id $id
+        // Cette méthode retourne un tableau contenant n objets de la classe $base.
+        function getNObjet($base, $id, $n) {
+          $requete = "SELECT * FROM $base where id>=$id order by id limit $n";
+          $query=($this->db)->query($requete);
+          $result =$query->fetchAll(PDO::FETCH_CLASS,"$base");
+          return $result;
         }
 
 }
