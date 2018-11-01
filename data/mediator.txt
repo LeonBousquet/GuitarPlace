@@ -8,3 +8,5 @@
 8|Dunlop Acoustic Pick Variety Pack|accessoire/mediator/8.jpg|12|0.60mm à 0.88mm|Variable|6.50€
 9|Dunlop Tortex Standard 0,60|accessoire/mediator/9.jpg|12|0.60mm|Plastique|5.90€
 10|John Pearse Buffalo Horn Plectrum|accessoire/mediator/10.jpg|1|Heavy|Corne|9.70€
+11|Dunlop Nylon Standard Picks 100/Black|accessoire/mediator/11.jpg|100|1mm|Nylon|33€
+12|Ernie Ball Prodigy Picks 2 mm STD WH|accessoire/mediator/12.jpg|6|2mm|Delrin|10.50€

@@ -1,10 +1,12 @@
 1|Harley Benton GC 6 PR Vintage Tweed|accessoire/cable/1.jpg|6.00m|Tweed|7.90€
-2|the sssnake IPP1030|accessoire/cable/2.jpg|3.00m|Noir|2.44€
-3|pro snake Patch Angled Jack 0,15 m|accessoire/cable/3.jpg|15cm|Noir|2.44€
+2|The sssnake IPP1030|accessoire/cable/2.jpg|3.00m|Noir|2.44€
+3|Pro snake Patch Angled Jack 0,15 m|accessoire/cable/3.jpg|15cm|Noir|2.44€
 4|Evidence Audio SIS Kit 10 BK|accessoire/cable/4.jpg|3.00m|Noir|88€
 5|Harley Benton GC 6 PR Vintage Red|accessoire/cable/5.jpg|6.00m|Rouge|7.90€
 6|Fender Performance Angle Cable 3m|accessoire/cable/6.jpg|3.00m|Noir|9.90€
 7|Fender Custom Shop Angle Cable TW5,5m|accessoire/cable/7.jpg|5.50m|Tweed|17.60€
 8|Fender Custom Shop Angle Cable BT 3m|accessoire/cable/8.jpg|3.00m|Noir|13.90€
-9|pro snake TPI-A 6|accessoire/cable/9.jpg|6.00mm|Noir|5.80€
-10|pro snake TPI 9|accessoire/cable/10.jpg|9.00m|Noir|7.80€
+9|Pro snake TPI-A 6|accessoire/cable/9.jpg|6.00mm|Noir|5.80€
+10|Pro snake TPI 9|accessoire/cable/10.jpg|9.00m|Noir|7.80€
+11|Ernie Ball 25" Braided S/A BKGR|accessoire/cable/11.jpg|7.62m|Vert|35€
+12|Fender Hendrix Voodoo Child Cable BK|accessoire/cable/12.jpg|6.50m|Noir|28€

@@ -8,3 +8,5 @@
 8|FGN J-Standard Iliad HH RW BK|electrique/telecaster/8.jpg|Noir|799€
 9|Friedman Vintage T-APBWH|electrique/telecaster/9.jpg|Noir|2666€
 10|Harley Benton TE-80 NT Deluxe Series|electrique/telecaster/10.jpg|Naturel|177€
+11|Fender 63 Tele Journeyman Relic AWB|electrique/telecaster/11.jpg|Blanc|3499€
+12|Fender Hybrid 60s Tele Surf Green|electrique/telecaster/12.jpg|Bleu|990€

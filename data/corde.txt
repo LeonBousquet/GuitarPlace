@@ -8,3 +8,5 @@
 8|Savarez Argentine 1510|acoustique|accessoire/corde/8.jpg|010 - 045|9.40€
 9|Elixir Nanoweb Extra Light Acoustic|acoustique|accessoire/corde/9.jpg|010 - 047|16.90€
 10|Ernie Ball Paradigm 80/20 B. EXL 10-50|acoustique|accessoire/corde/10.jpg|010 - 050|16.60€
+11|DAngelico Electrozinc Rock Extra Light|electrique|accessoire/corde/11.jpg|009 - 046|8.90€
+12|La Bella Lite Bender B946|electrique|accessoire/corde/12.jpg|009 - 046|5.80€
