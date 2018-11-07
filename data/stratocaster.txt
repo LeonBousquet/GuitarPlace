@@ -9,3 +9,4 @@
 9|Jackson Adrian Smith SDXQ Trans Green|electrique/stratocaster/9.jpg|Vert|469€
 10|PRS John Mayer Silver Sky Tungsten|electrique/stratocaster/10.jpg|Argent|2949€
 11|Caparison Dellinger 7 FX-AM|electrique/stratocaster/11.jpg|Noir|2600€
+12|Ibanez S521 BBS|electrique/stratocaster/12.jpg|Rouge|399€

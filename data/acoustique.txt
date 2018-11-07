@@ -8,3 +8,5 @@
 8|Yamaha AC3R ARE BL LTD|acoustique/8.jpg|oui|999€
 9|Yamaha FS800 T|acoustique/9.jpg|non|269€
 10|Furch Blue plus GC-SW|acoustique/10.jpg|non|1258€
+11|Dean Guitars Dave Mustaine MAKO|acoustique/11.jpg|oui|485€
+12|Martin Guitars 000-28EC|acoustique/12.jpg|oui|3848€
