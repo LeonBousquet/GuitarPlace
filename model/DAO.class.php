@@ -36,6 +36,7 @@ $dao = new DAO();
           return $this->db;
         }
 
+        // retourne tous les produits de la classe $base pour l'utilisateur ayant le pseudo $login
         function getMesProduits($base,$login) : array {
           $req = "SELECT * FROM $base WHERE id in (SELECT id FROM mesproduits WHERE categorie= '$base' AND utilisateur_login='$login')";
           $sth = ($this->db)->query($req);
@@ -43,23 +44,25 @@ $dao = new DAO();
           return $result;
         }
 
+        // Ajoute un produit dans la table mesproduits en spécifiant la catégorie et l'id du produit ainsi que le pseudo de l'utilisateur
         function ajoutProduit($categorie,$id,$login){
-            $test = "SELECT * FROM mesproduits WHERE categorie = '$categorie' and id = '$id' and utilisateur_login = '$login'";
+            $test = "SELECT * FROM mesproduits WHERE categorie = '$categorie' and id = '$id' and utilisateur_login = '$login'"; //on fait cela pour ensuite vérifier que le produit sélectionné n'existe pas déjà dans la table mesproduits pour l'utilisateur donné
             $sth = ($this->db)->query($test);
             $result=$sth->fetchAll(PDO::FETCH_CLASS, 'mesproduits');
-            if (count($result) == 0) {
-              $req = "INSERT INTO mesproduits (categorie,id,utilisateur_login) VALUES ('$categorie','$id','$login')";
+            if (count($result) == 0) { //Si ce produit n'a pas déjà été ajouté dans mes produits
+              $req = "INSERT INTO mesproduits (categorie,id,utilisateur_login) VALUES ('$categorie','$id','$login')"; //On l'ajoute dans la table mesProduits
               $sth = ($this->db)->query($req);
             }
         }
 
+        // Supprime le produit de catégorie $catégorie et d'id $id pour l'utilisateur de pseudo $login de la table mesproduits
         function suppProduit($categorie,$id,$login){
             $req = "DELETE FROM mesproduits WHERE categorie= '$categorie' AND id= '$id' AND utilisateur_login='$login'";
             $sth = ($this->db)->query($req);
         }
 
-        // Acces au n objets à partir de l'id $id
-        // Cette méthode retourne un tableau contenant n objets de la classe $base.
+        // Acces aux n objets à partir de l'id $id
+        // Cette méthode retourne un tableau contenant n objets de la table $base.
         function getNObjet($base, $id, $n) {
           $requete = "SELECT * FROM $base where id>=$id order by id limit $n";
           $query=($this->db)->query($requete);

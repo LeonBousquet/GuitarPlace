@@ -12,11 +12,11 @@ $categorie= $_GET['categorie'];
 $id = $_GET['id'];
 
 // appel de la fonction suppProduit qui va supprimer de la table mesProduits
-// le produit associé à la catégorie, l'id ains que le login donnés en paramètre
+// le produit associé à la catégorie, l'id ainsi que le login donnés en paramètre
 
 $dao->suppProduit($categorie,$id,$login);
 
-// redirection automatique vers la page de produits sur laquelle se trouve l'utilisateur
+// redirection automatique sur la page mesproduits 
 header("Location:../controler/afficher_mesproduits.ctrl.php");
 
 

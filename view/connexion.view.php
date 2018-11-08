@@ -13,8 +13,9 @@
           <header>
             Se connecter <br><br>
             <?php
+            //on récupère la valeur de la variable pb transmise par le biais de l'url (par défaut = 0)
             $pb=$_GET['pb'];
-            
+            //si pb = 1 alors c'est que soit le pseudo soit le mot de passe n'est pas correct, on affiche donc un message à l'utilisateur
             if($pb==1){
               print "<h3>Le mot de passe ou le pseudo est incorrect, veuillez réessayer...</h3>";
             }

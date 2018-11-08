@@ -11,7 +11,6 @@
     print "<h2> Guitares acoustiques </h2>";
 
     //test si un utilisateur est connecté pour lui afficher le message
-
     if (isset($_SESSION['pseudo'])){
       print "<dd>Cliquez sur une photo pour ajouter le produit dans \"Mes Produits\"";
     }
@@ -19,13 +18,13 @@
     print "<div class = 'choixPage'>";
 
     //affichage des flèches de navigation
-      if ($_GET['id'] > 1) {
+      if ($_GET['id'] > 1) { // Il n'existe pas d'objets à afficher avec id <= 1 donc on affiche pas la flèche pour id <= 1
         print "<a href='?id=$prec&page=$precPage'><img src = \"../view/flecheG.png\"/></a>";
       }
 
-      print " page $page ";
+      print " page $page "; // numéro de la page
 
-      if ($_GET['id'] != $next) {
+      if ($_GET['id'] != $next) { //Voir controleur : Si next = id c'est qu'il n'y a plus d'objets à afficher avec id = id + 6 donc on affiche pas la flèche
         print "<a href='?id=$next&page=$nextPage'><img src = \"../view/flecheD.png\"/></a>";
       }
 

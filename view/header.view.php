@@ -12,7 +12,7 @@
     <nav id="navigation">
       <ul>
         <li class="navigation"><a href="../controler/afficher_accueil.ctrl.php"><b>Accueil</b></a></li>
-        <!-- Si l'utilisateur est connecté on affiche la barre de navigation avec la section "Mes produits"
+        <!-- Si l'utilisateur est connecté on affiche la barre de navigation ("Accueil" + les différents produits) avec la section "Mes produits"
       et "Se déconnecter (username)" sinon pas de "Mes produits" et section "Connexion" -->
         <?php if (isset($_SESSION['pseudo'])) { ?>
           <li class="bouton"><a href="#"><b>Guitares Electriques</b></a>

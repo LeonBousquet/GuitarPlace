@@ -9,6 +9,8 @@
             <!-- formulaire d'inscription -->
             <form  class="" action="../controler/inscription.ctrl.php" method="post">
               <header>
+                <!-- on récupère la valeur de la variable pb transmise via l'url. Celle-ci sert à afficher un message adéquat en
+                fonction du problème détecté lors de l'inscription (voir controler) -->
                 <?php $pb=$_GET['pb'];
                 if($pb==1){
                     print "<h3>La confirmation du mot de passe est incorrecte, veuillez corriger...</h3>";
